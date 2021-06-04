@@ -1,0 +1,1519 @@
+(this["webpackJsonpzoop-chat"] = this["webpackJsonpzoop-chat"] || []).push([["main"],{
+
+/***/ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/App.css":
+/*!************************************************************************************************************************!*\
+  !*** ./node_modules/css-loader/dist/cjs.js??ref--5-oneOf-4-1!./node_modules/postcss-loader/src??postcss!./src/App.css ***!
+  \************************************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js");
+/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0__);
+// Imports
+
+var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(true);
+// Module
+___CSS_LOADER_EXPORT___.push([module.i, ".App {\n  text-align: center;\n}\n\n.App-logo {\n  height: 40vmin;\n  pointer-events: none;\n}\n\n@media (prefers-reduced-motion: no-preference) {\n  .App-logo {\n    animation: App-logo-spin infinite 20s linear;\n  }\n}\n\n.App-header {\n  background-color: #282c34;\n  min-height: 100vh;\n  display: flex;\n  flex-direction: column;\n  align-items: center;\n  justify-content: center;\n  font-size: calc(10px + 2vmin);\n  color: white;\n}\n\n.App-link {\n  color: #61dafb;\n}\n\n@keyframes App-logo-spin {\n  from {\n    transform: rotate(0deg);\n  }\n  to {\n    transform: rotate(360deg);\n  }\n}\n", "",{"version":3,"sources":["webpack://src/App.css"],"names":[],"mappings":"AAAA;EACE,kBAAkB;AACpB;;AAEA;EACE,cAAc;EACd,oBAAoB;AACtB;;AAEA;EACE;IACE,4CAA4C;EAC9C;AACF;;AAEA;EACE,yBAAyB;EACzB,iBAAiB;EACjB,aAAa;EACb,sBAAsB;EACtB,mBAAmB;EACnB,uBAAuB;EACvB,6BAA6B;EAC7B,YAAY;AACd;;AAEA;EACE,cAAc;AAChB;;AAEA;EACE;IACE,uBAAuB;EACzB;EACA;IACE,yBAAyB;EAC3B;AACF","sourcesContent":[".App {\n  text-align: center;\n}\n\n.App-logo {\n  height: 40vmin;\n  pointer-events: none;\n}\n\n@media (prefers-reduced-motion: no-preference) {\n  .App-logo {\n    animation: App-logo-spin infinite 20s linear;\n  }\n}\n\n.App-header {\n  background-color: #282c34;\n  min-height: 100vh;\n  display: flex;\n  flex-direction: column;\n  align-items: center;\n  justify-content: center;\n  font-size: calc(10px + 2vmin);\n  color: white;\n}\n\n.App-link {\n  color: #61dafb;\n}\n\n@keyframes App-logo-spin {\n  from {\n    transform: rotate(0deg);\n  }\n  to {\n    transform: rotate(360deg);\n  }\n}\n"],"sourceRoot":""}]);
+// Exports
+/* harmony default export */ __webpack_exports__["default"] = (___CSS_LOADER_EXPORT___);
+
+
+/***/ }),
+
+/***/ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/Component/sidebar/sidebar.css":
+/*!**********************************************************************************************************************************************!*\
+  !*** ./node_modules/css-loader/dist/cjs.js??ref--5-oneOf-4-1!./node_modules/postcss-loader/src??postcss!./src/Component/sidebar/sidebar.css ***!
+  \**********************************************************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js");
+/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0__);
+// Imports
+
+var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(true);
+// Module
+___CSS_LOADER_EXPORT___.push([module.i, "strong{\r\n    font-size: 40px;\r\n  }\r\n  #mySidenav a {\r\n    position: absolute;\r\n    left: -80px;\r\n    transition: 0.3s;\r\n    padding: 15px;\r\n    width: 140px;\r\n    text-decoration: none;\r\n    font-size: 20px;\r\n    color: white;\r\n    border-radius: 0 5px 5px 0;\r\n  }\r\n  \r\n  #mySidenav a:hover {\r\n    left: 0;\r\n  }\r\n  \r\n  #Home {\r\n    top: 60px;\r\n    background-color: #f44336;\r\n  }\r\n  \r\n  #Atendentes {\r\n    top:130px;\r\n    background-color: #f44338; \r\n  }\r\n  \r\n  #Chat {\r\n    top: 200px;\r\n    background-color: #f44340;\r\n  }\r\n  \r\n  #Suporte {\r\n    top: 270px;\r\n    background-color: #f44342;\r\n  }", "",{"version":3,"sources":["webpack://src/Component/sidebar/sidebar.css"],"names":[],"mappings":"AAAA;IACI,eAAe;EACjB;EACA;IACE,kBAAkB;IAClB,WAAW;IACX,gBAAgB;IAChB,aAAa;IACb,YAAY;IACZ,qBAAqB;IACrB,eAAe;IACf,YAAY;IACZ,0BAA0B;EAC5B;;EAEA;IACE,OAAO;EACT;;EAEA;IACE,SAAS;IACT,yBAAyB;EAC3B;;EAEA;IACE,SAAS;IACT,yBAAyB;EAC3B;;EAEA;IACE,UAAU;IACV,yBAAyB;EAC3B;;EAEA;IACE,UAAU;IACV,yBAAyB;EAC3B","sourcesContent":["strong{\r\n    font-size: 40px;\r\n  }\r\n  #mySidenav a {\r\n    position: absolute;\r\n    left: -80px;\r\n    transition: 0.3s;\r\n    padding: 15px;\r\n    width: 140px;\r\n    text-decoration: none;\r\n    font-size: 20px;\r\n    color: white;\r\n    border-radius: 0 5px 5px 0;\r\n  }\r\n  \r\n  #mySidenav a:hover {\r\n    left: 0;\r\n  }\r\n  \r\n  #Home {\r\n    top: 60px;\r\n    background-color: #f44336;\r\n  }\r\n  \r\n  #Atendentes {\r\n    top:130px;\r\n    background-color: #f44338; \r\n  }\r\n  \r\n  #Chat {\r\n    top: 200px;\r\n    background-color: #f44340;\r\n  }\r\n  \r\n  #Suporte {\r\n    top: 270px;\r\n    background-color: #f44342;\r\n  }"],"sourceRoot":""}]);
+// Exports
+/* harmony default export */ __webpack_exports__["default"] = (___CSS_LOADER_EXPORT___);
+
+
+/***/ }),
+
+/***/ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/Page/Home/Home.css":
+/*!***********************************************************************************************************************************!*\
+  !*** ./node_modules/css-loader/dist/cjs.js??ref--5-oneOf-4-1!./node_modules/postcss-loader/src??postcss!./src/Page/Home/Home.css ***!
+  \***********************************************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js");
+/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0__);
+// Imports
+
+var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(true);
+___CSS_LOADER_EXPORT___.push([module.i, "@import url(https://fonts.googleapis.com/css?family=Roboto:300);"]);
+// Module
+___CSS_LOADER_EXPORT___.push([module.i, "#page-home{\r\n    height: 100vh;\r\n    display: flex;\r\n    flex-direction: column;\r\n    background-color:darkorange;\r\n}\r\n#page-home .content{\r\n    width: 100%;\r\n    height: 100%;\r\n    max-width: 1100px;\r\n    margin: 0 auto;\r\n    padding: 0 30px;\r\n    display: flex;\r\n    flex-direction: column;\r\n}\r\n\r\n\r\n.login-page {\r\n  width: 360px;\r\n  padding: 8% 0 0;\r\n  margin: auto;\r\n}\r\n.form {\r\n  position: relative;\r\n  z-index: 1;\r\n  background: #FFFFFF;\r\n  max-width: 360px;\r\n  margin: 0 auto 100px;\r\n  padding: 45px;\r\n  text-align: center;\r\n  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);\r\n}\r\n#page-home  img{\r\n   position: relative;\r\n    top: -10px;\r\n    height: 80px;\r\n    width:80px;\r\n}\r\n.form input {\r\n  font-family: \"Roboto\", sans-serif;\r\n  outline: 0;\r\n  background: #f2f2f2;\r\n  width: 100%;\r\n  border: 0;\r\n  margin: 0 0 15px;\r\n  padding: 15px;\r\n  box-sizing: border-box;\r\n  font-size: 14px;\r\n}\r\n.form button {\r\n  font-family: \"Roboto\", sans-serif;\r\n  text-transform: uppercase;\r\n  outline: 0;\r\n  background:darkorange;\r\n  width: 100%;\r\n  border: 0;\r\n  padding: 15px;\r\n  color: #FFFFFF;\r\n  font-size: 14px;\r\n  transition: all 0.3 ease;\r\n  cursor: pointer;\r\n\r\n}\r\n.form button:hover,.form button:active,.form button:focus {\r\n  background:orange;\r\n}\r\n.form .message {\r\n  margin: 15px 0 0;\r\n  color: #b3b3b3;\r\n  font-size: 12px;\r\n}\r\n.form .message a {\r\n  color: #e48416;\r\n  text-decoration: none;\r\n}\r\n.form .register-form {\r\n  display: none;\r\n}\r\n.container {\r\n  position: relative;\r\n  z-index: 1;\r\n  max-width: 300px;\r\n  margin: 0 auto;\r\n}\r\n.container:before, .container:after {\r\n  content: \"\";\r\n  display: block;\r\n  clear: both;\r\n}\r\n.container .info {\r\n  margin: 50px auto;\r\n  text-align: center;\r\n}\r\n.container .info h1 {\r\n  margin: 0 0 15px;\r\n  padding: 0;\r\n  font-size: 36px;\r\n  font-weight: 300;\r\n  color: #1a1a1a;\r\n}\r\n.container .info span {\r\n  color: #4d4d4d;\r\n  font-size: 12px;\r\n}\r\n.container .info span a {\r\n  color: #000000;\r\n  text-decoration: none;\r\n}\r\n.container .info span .fa {\r\n  color: #EF3B3A;\r\n}\r\nbody {\r\n  background: #FFFFFF; \r\n  \r\n  font-family: \"Roboto\", sans-serif;\r\n  -webkit-font-smoothing: antialiased;\r\n  -moz-osx-font-smoothing: grayscale;      \r\n}\r\n", "",{"version":3,"sources":["webpack://src/Page/Home/Home.css"],"names":[],"mappings":"AACA;IACI,aAAa;IACb,aAAa;IACb,sBAAsB;IACtB,2BAA2B;AAC/B;AACA;IACI,WAAW;IACX,YAAY;IACZ,iBAAiB;IACjB,cAAc;IACd,eAAe;IACf,aAAa;IACb,sBAAsB;AAC1B;;;AAGA;EACE,YAAY;EACZ,eAAe;EACf,YAAY;AACd;AACA;EACE,kBAAkB;EAClB,UAAU;EACV,mBAAmB;EACnB,gBAAgB;EAChB,oBAAoB;EACpB,aAAa;EACb,kBAAkB;EAClB,0EAA0E;AAC5E;AACA;GACG,kBAAkB;IACjB,UAAU;IACV,YAAY;IACZ,UAAU;AACd;AACA;EACE,iCAAiC;EACjC,UAAU;EACV,mBAAmB;EACnB,WAAW;EACX,SAAS;EACT,gBAAgB;EAChB,aAAa;EACb,sBAAsB;EACtB,eAAe;AACjB;AACA;EACE,iCAAiC;EACjC,yBAAyB;EACzB,UAAU;EACV,qBAAqB;EACrB,WAAW;EACX,SAAS;EACT,aAAa;EACb,cAAc;EACd,eAAe;EAEf,wBAAwB;EACxB,eAAe;;AAEjB;AACA;EACE,iBAAiB;AACnB;AACA;EACE,gBAAgB;EAChB,cAAc;EACd,eAAe;AACjB;AACA;EACE,cAAc;EACd,qBAAqB;AACvB;AACA;EACE,aAAa;AACf;AACA;EACE,kBAAkB;EAClB,UAAU;EACV,gBAAgB;EAChB,cAAc;AAChB;AACA;EACE,WAAW;EACX,cAAc;EACd,WAAW;AACb;AACA;EACE,iBAAiB;EACjB,kBAAkB;AACpB;AACA;EACE,gBAAgB;EAChB,UAAU;EACV,eAAe;EACf,gBAAgB;EAChB,cAAc;AAChB;AACA;EACE,cAAc;EACd,eAAe;AACjB;AACA;EACE,cAAc;EACd,qBAAqB;AACvB;AACA;EACE,cAAc;AAChB;AACA;EACE,mBAAmB;;EAEnB,iCAAiC;EACjC,mCAAmC;EACnC,kCAAkC;AACpC","sourcesContent":["@import url(https://fonts.googleapis.com/css?family=Roboto:300);\r\n#page-home{\r\n    height: 100vh;\r\n    display: flex;\r\n    flex-direction: column;\r\n    background-color:darkorange;\r\n}\r\n#page-home .content{\r\n    width: 100%;\r\n    height: 100%;\r\n    max-width: 1100px;\r\n    margin: 0 auto;\r\n    padding: 0 30px;\r\n    display: flex;\r\n    flex-direction: column;\r\n}\r\n\r\n\r\n.login-page {\r\n  width: 360px;\r\n  padding: 8% 0 0;\r\n  margin: auto;\r\n}\r\n.form {\r\n  position: relative;\r\n  z-index: 1;\r\n  background: #FFFFFF;\r\n  max-width: 360px;\r\n  margin: 0 auto 100px;\r\n  padding: 45px;\r\n  text-align: center;\r\n  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);\r\n}\r\n#page-home  img{\r\n   position: relative;\r\n    top: -10px;\r\n    height: 80px;\r\n    width:80px;\r\n}\r\n.form input {\r\n  font-family: \"Roboto\", sans-serif;\r\n  outline: 0;\r\n  background: #f2f2f2;\r\n  width: 100%;\r\n  border: 0;\r\n  margin: 0 0 15px;\r\n  padding: 15px;\r\n  box-sizing: border-box;\r\n  font-size: 14px;\r\n}\r\n.form button {\r\n  font-family: \"Roboto\", sans-serif;\r\n  text-transform: uppercase;\r\n  outline: 0;\r\n  background:darkorange;\r\n  width: 100%;\r\n  border: 0;\r\n  padding: 15px;\r\n  color: #FFFFFF;\r\n  font-size: 14px;\r\n  -webkit-transition: all 0.3 ease;\r\n  transition: all 0.3 ease;\r\n  cursor: pointer;\r\n\r\n}\r\n.form button:hover,.form button:active,.form button:focus {\r\n  background:orange;\r\n}\r\n.form .message {\r\n  margin: 15px 0 0;\r\n  color: #b3b3b3;\r\n  font-size: 12px;\r\n}\r\n.form .message a {\r\n  color: #e48416;\r\n  text-decoration: none;\r\n}\r\n.form .register-form {\r\n  display: none;\r\n}\r\n.container {\r\n  position: relative;\r\n  z-index: 1;\r\n  max-width: 300px;\r\n  margin: 0 auto;\r\n}\r\n.container:before, .container:after {\r\n  content: \"\";\r\n  display: block;\r\n  clear: both;\r\n}\r\n.container .info {\r\n  margin: 50px auto;\r\n  text-align: center;\r\n}\r\n.container .info h1 {\r\n  margin: 0 0 15px;\r\n  padding: 0;\r\n  font-size: 36px;\r\n  font-weight: 300;\r\n  color: #1a1a1a;\r\n}\r\n.container .info span {\r\n  color: #4d4d4d;\r\n  font-size: 12px;\r\n}\r\n.container .info span a {\r\n  color: #000000;\r\n  text-decoration: none;\r\n}\r\n.container .info span .fa {\r\n  color: #EF3B3A;\r\n}\r\nbody {\r\n  background: #FFFFFF; \r\n  \r\n  font-family: \"Roboto\", sans-serif;\r\n  -webkit-font-smoothing: antialiased;\r\n  -moz-osx-font-smoothing: grayscale;      \r\n}\r\n"],"sourceRoot":""}]);
+// Exports
+/* harmony default export */ __webpack_exports__["default"] = (___CSS_LOADER_EXPORT___);
+
+
+/***/ }),
+
+/***/ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/Page/acount/acount.css":
+/*!***************************************************************************************************************************************!*\
+  !*** ./node_modules/css-loader/dist/cjs.js??ref--5-oneOf-4-1!./node_modules/postcss-loader/src??postcss!./src/Page/acount/acount.css ***!
+  \***************************************************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js");
+/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0__);
+// Imports
+
+var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(true);
+// Module
+___CSS_LOADER_EXPORT___.push([module.i, "  input {\r\n    display:flex;\r\n    position:relative;\r\n  background:white;\r\n  right:-500px;\r\n  border-radius:20%;\r\n\r\n}\r\n\r\nsvg{\r\n  display:flex;\r\n    position:relative;\r\n  background:dodgerblue;\r\n  right:-680px;\r\n  border-radius:20%;\r\n  top:24px\r\n  \r\n  \r\n}\r\n", "",{"version":3,"sources":["webpack://src/Page/acount/acount.css"],"names":[],"mappings":"EAAE;IACE,YAAY;IACZ,iBAAiB;EACnB,gBAAgB;EAChB,YAAY;EACZ,iBAAiB;;AAEnB;;AAEA;EACE,YAAY;IACV,iBAAiB;EACnB,qBAAqB;EACrB,YAAY;EACZ,iBAAiB;EACjB;;;AAGF","sourcesContent":["  input {\r\n    display:flex;\r\n    position:relative;\r\n  background:white;\r\n  right:-500px;\r\n  border-radius:20%;\r\n\r\n}\r\n\r\nsvg{\r\n  display:flex;\r\n    position:relative;\r\n  background:dodgerblue;\r\n  right:-680px;\r\n  border-radius:20%;\r\n  top:24px\r\n  \r\n  \r\n}\r\n"],"sourceRoot":""}]);
+// Exports
+/* harmony default export */ __webpack_exports__["default"] = (___CSS_LOADER_EXPORT___);
+
+
+/***/ }),
+
+/***/ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/index.css":
+/*!**************************************************************************************************************************!*\
+  !*** ./node_modules/css-loader/dist/cjs.js??ref--5-oneOf-4-1!./node_modules/postcss-loader/src??postcss!./src/index.css ***!
+  \**************************************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js");
+/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0__);
+// Imports
+
+var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(true);
+___CSS_LOADER_EXPORT___.push([module.i, "@import url(https://fonts.googleapis.com/css2?familu=Lato:wght@300;400;700&display=swap);"]);
+// Module
+___CSS_LOADER_EXPORT___.push([module.i, "::-webkit-scrollbar{\n  width:5px;\n  height:6px;\n}\n::-webkit-scrollbar-track{\n  box-shadow:inset 0 0 5px #a5aaad;\n  border: radius 10px;\n}\n::-webkit-scrollbar-thumb{\n  background:#3ea175;\n  border-radius:10px;\n}\n::-webkit-scrollbar-thumb:hover{\n  background:#a5aaad\n}\n*{\n  margin:0;\n  padding:0;\n}\nbody{\n  box-sizing: border-box;\n  font-family:\"Lato\",sans-serif;\n}\n.text-primary-p{\n  color:#a5aaad;\n  font-size:14px;\n  font-weight:700;\n}\n.font-bold{\n  font-weight:700;\n}\n.text-title{\n  color:#2e4a66;\n}\n.text-lightblue{\n  color:#469cac;\n}\n.text-red{\n  color:#cc3d38\n}\ntext-yellow{\n  color:#a98921;\n}\ntext-green{\n  color:#3b9668;\n}\n.container{\n  display: grid;\n  height: 100vh;\n  grid-template-columns: 0.8fr repeat( 3, 1fr);\n  grid-template-rows: 0.2fr 3fr;\n  grid-template-areas: 'sidebar nav nav nav''sidebar main main main';\n}\n@media only screen and(max-width:978px){\n  .container{\n    grid-template-columns: 1fr;\n    grid-template-rows: 0.2fr 3fr;\n    grid-template-areas:\"nav\" \"main\";\n  }\n}", "",{"version":3,"sources":["webpack://src/index.css"],"names":[],"mappings":"AAEA;EACE,SAAS;EACT,UAAU;AACZ;AACA;EACE,gCAAgC;EAChC,mBAAmB;AACrB;AACA;EACE,kBAAkB;EAClB,kBAAkB;AACpB;AACA;EACE;AACF;AACA;EACE,QAAQ;EACR,SAAS;AACX;AACA;EACE,sBAAsB;EACtB,6BAA6B;AAC/B;AACA;EACE,aAAa;EACb,cAAc;EACd,eAAe;AACjB;AACA;EACE,eAAe;AACjB;AACA;EACE,aAAa;AACf;AACA;EACE,aAAa;AACf;AACA;EACE;AACF;AACA;EACE,aAAa;AACf;AACA;EACE,aAAa;AACf;AACA;EACE,aAAa;EACb,aAAa;EACb,4CAA4C;EAC5C,6BAA6B;EAC7B,kEAAkE;AACpE;AACA;EACE;IACE,0BAA0B;IAC1B,6BAA6B;IAC7B,gCAAgC;EAClC;AACF","sourcesContent":["@import url('https://fonts.googleapis.com/css2?familu=Lato:wght@300;400;700&display=swap');\n\n::-webkit-scrollbar{\n  width:5px;\n  height:6px;\n}\n::-webkit-scrollbar-track{\n  box-shadow:inset 0 0 5px #a5aaad;\n  border: radius 10px;\n}\n::-webkit-scrollbar-thumb{\n  background:#3ea175;\n  border-radius:10px;\n}\n::-webkit-scrollbar-thumb:hover{\n  background:#a5aaad\n}\n*{\n  margin:0;\n  padding:0;\n}\nbody{\n  box-sizing: border-box;\n  font-family:\"Lato\",sans-serif;\n}\n.text-primary-p{\n  color:#a5aaad;\n  font-size:14px;\n  font-weight:700;\n}\n.font-bold{\n  font-weight:700;\n}\n.text-title{\n  color:#2e4a66;\n}\n.text-lightblue{\n  color:#469cac;\n}\n.text-red{\n  color:#cc3d38\n}\ntext-yellow{\n  color:#a98921;\n}\ntext-green{\n  color:#3b9668;\n}\n.container{\n  display: grid;\n  height: 100vh;\n  grid-template-columns: 0.8fr repeat( 3, 1fr);\n  grid-template-rows: 0.2fr 3fr;\n  grid-template-areas: 'sidebar nav nav nav''sidebar main main main';\n}\n@media only screen and(max-width:978px){\n  .container{\n    grid-template-columns: 1fr;\n    grid-template-rows: 0.2fr 3fr;\n    grid-template-areas:\"nav\" \"main\";\n  }\n}"],"sourceRoot":""}]);
+// Exports
+/* harmony default export */ __webpack_exports__["default"] = (___CSS_LOADER_EXPORT___);
+
+
+/***/ }),
+
+/***/ "./src/App.css":
+/*!*********************!*\
+  !*** ./src/App.css ***!
+  \*********************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+var api = __webpack_require__(/*! ../node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js */ "./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js");
+            var content = __webpack_require__(/*! !../node_modules/css-loader/dist/cjs.js??ref--5-oneOf-4-1!../node_modules/postcss-loader/src??postcss!./App.css */ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/App.css");
+
+            content = content.__esModule ? content.default : content;
+
+            if (typeof content === 'string') {
+              content = [[module.i, content, '']];
+            }
+
+var options = {};
+
+options.insert = "head";
+options.singleton = false;
+
+var update = api(content, options);
+
+
+if (true) {
+  if (!content.locals || module.hot.invalidate) {
+    var isEqualLocals = function isEqualLocals(a, b, isNamedExport) {
+  if (!a && b || a && !b) {
+    return false;
+  }
+
+  var p;
+
+  for (p in a) {
+    if (isNamedExport && p === 'default') {
+      // eslint-disable-next-line no-continue
+      continue;
+    }
+
+    if (a[p] !== b[p]) {
+      return false;
+    }
+  }
+
+  for (p in b) {
+    if (isNamedExport && p === 'default') {
+      // eslint-disable-next-line no-continue
+      continue;
+    }
+
+    if (!a[p]) {
+      return false;
+    }
+  }
+
+  return true;
+};
+    var oldLocals = content.locals;
+
+    module.hot.accept(
+      /*! !../node_modules/css-loader/dist/cjs.js??ref--5-oneOf-4-1!../node_modules/postcss-loader/src??postcss!./App.css */ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/App.css",
+      function () {
+        content = __webpack_require__(/*! !../node_modules/css-loader/dist/cjs.js??ref--5-oneOf-4-1!../node_modules/postcss-loader/src??postcss!./App.css */ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/App.css");
+
+              content = content.__esModule ? content.default : content;
+
+              if (typeof content === 'string') {
+                content = [[module.i, content, '']];
+              }
+
+              if (!isEqualLocals(oldLocals, content.locals)) {
+                module.hot.invalidate();
+
+                return;
+              }
+
+              oldLocals = content.locals;
+
+              update(content);
+      }
+    )
+  }
+
+  module.hot.dispose(function() {
+    update();
+  });
+}
+
+module.exports = content.locals || {};
+
+/***/ }),
+
+/***/ "./src/App.js":
+/*!********************!*\
+  !*** ./src/App.js ***!
+  \********************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* WEBPACK VAR INJECTION */(function(__react_refresh_utils__, __react_refresh_error_overlay__) {/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _Routes__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Routes */ "./src/Routes.js");
+/* harmony import */ var _App_css__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./App.css */ "./src/App.css");
+/* harmony import */ var _App_css__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_App_css__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! react/jsx-dev-runtime */ "./node_modules/react/jsx-dev-runtime.js");
+/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_3__);
+__webpack_require__.$Refresh$.runtime = __webpack_require__(/*! ./node_modules/react-refresh/runtime.js */ "./node_modules/react-refresh/runtime.js");
+__webpack_require__.$Refresh$.setup(module.i);
+
+var _jsxFileName = "C:\\Users\\Defensoria\\Desktop\\Emmy\\zoop-chat\\src\\App.js";
+
+
+
+
+
+function app() {
+  return /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_3__["jsxDEV"])(_Routes__WEBPACK_IMPORTED_MODULE_1__["default"], {}, void 0, false, {
+    fileName: _jsxFileName,
+    lineNumber: 10,
+    columnNumber: 9
+  }, this);
+}
+
+/* harmony default export */ __webpack_exports__["default"] = (app);
+
+const currentExports = __react_refresh_utils__.getModuleExports(module.i);
+__react_refresh_utils__.registerExportsForReactRefresh(currentExports, module.i);
+
+if (true) {
+  const isHotUpdate = !!module.hot.data;
+  const prevExports = isHotUpdate ? module.hot.data.prevExports : null;
+
+  if (__react_refresh_utils__.isReactRefreshBoundary(currentExports)) {
+    module.hot.dispose(
+      /**
+       * A callback to performs a full refresh if React has unrecoverable errors,
+       * and also caches the to-be-disposed module.
+       * @param {*} data A hot module data object from Webpack HMR.
+       * @returns {void}
+       */
+      function hotDisposeCallback(data) {
+        // We have to mutate the data object to get data registered and cached
+        data.prevExports = currentExports;
+      }
+    );
+    module.hot.accept(
+      /**
+       * An error handler to allow self-recovering behaviours.
+       * @param {Error} error An error occurred during evaluation of a module.
+       * @returns {void}
+       */
+      function hotErrorHandler(error) {
+        if (
+          typeof __react_refresh_error_overlay__ !== 'undefined' &&
+          __react_refresh_error_overlay__
+        ) {
+          __react_refresh_error_overlay__.handleRuntimeError(error);
+        }
+
+        if (typeof __react_refresh_test__ !== 'undefined' && __react_refresh_test__) {
+          if (window.onHotAcceptError) {
+            window.onHotAcceptError(error.message);
+          }
+        }
+
+        __webpack_require__.c[module.i].hot.accept(hotErrorHandler);
+      }
+    );
+
+    if (isHotUpdate) {
+      if (
+        __react_refresh_utils__.isReactRefreshBoundary(prevExports) &&
+        __react_refresh_utils__.shouldInvalidateReactRefreshBoundary(prevExports, currentExports)
+      ) {
+        module.hot.invalidate();
+      } else {
+        __react_refresh_utils__.enqueueUpdate(
+          /**
+           * A function to dismiss the error overlay after performing React refresh.
+           * @returns {void}
+           */
+          function updateCallback() {
+            if (
+              typeof __react_refresh_error_overlay__ !== 'undefined' &&
+              __react_refresh_error_overlay__
+            ) {
+              __react_refresh_error_overlay__.clearRuntimeErrors();
+            }
+          }
+        );
+      }
+    }
+  } else {
+    if (isHotUpdate && __react_refresh_utils__.isReactRefreshBoundary(prevExports)) {
+      module.hot.invalidate();
+    }
+  }
+}
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@pmmmwh/react-refresh-webpack-plugin/lib/runtime/RefreshUtils.js */ "./node_modules/@pmmmwh/react-refresh-webpack-plugin/lib/runtime/RefreshUtils.js"), __webpack_require__(/*! ./node_modules/react-dev-utils/refreshOverlayInterop.js */ "./node_modules/react-dev-utils/refreshOverlayInterop.js")))
+
+/***/ }),
+
+/***/ "./src/Component/sidebar/Sidebar.js":
+/*!******************************************!*\
+  !*** ./src/Component/sidebar/Sidebar.js ***!
+  \******************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* WEBPACK VAR INJECTION */(function(__react_refresh_utils__, __react_refresh_error_overlay__) {/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var cdbreact__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! cdbreact */ "./node_modules/cdbreact/dist/index.modern.js");
+/* harmony import */ var react_router_dom__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react-router-dom */ "./node_modules/react-router-dom/esm/react-router-dom.js");
+/* harmony import */ var react_icons_fi__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! react-icons/fi */ "./node_modules/react-icons/fi/index.esm.js");
+/* harmony import */ var react_icons_bs__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! react-icons/bs */ "./node_modules/react-icons/bs/index.esm.js");
+/* harmony import */ var _sidebar_css__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./sidebar.css */ "./src/Component/sidebar/sidebar.css");
+/* harmony import */ var _sidebar_css__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(_sidebar_css__WEBPACK_IMPORTED_MODULE_5__);
+/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! react/jsx-dev-runtime */ "./node_modules/react/jsx-dev-runtime.js");
+/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_6__);
+__webpack_require__.$Refresh$.runtime = __webpack_require__(/*! ./node_modules/react-refresh/runtime.js */ "./node_modules/react-refresh/runtime.js");
+__webpack_require__.$Refresh$.setup(module.i);
+
+var _jsxFileName = "C:\\Users\\Defensoria\\Desktop\\Emmy\\zoop-chat\\src\\Component\\sidebar\\Sidebar.js";
+
+
+
+
+
+
+
+
+
+const Sidebar = () => {
+  return /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_6__["jsxDEV"])("body", {
+    children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_6__["jsxDEV"])("strong", {
+      children: "ZoopChat"
+    }, void 0, false, {
+      fileName: _jsxFileName,
+      lineNumber: 19,
+      columnNumber: 1
+    }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_6__["jsxDEV"])("div", {
+      id: "mySidenav",
+      class: "sidenav",
+      children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_6__["jsxDEV"])("a", {
+        href: "/",
+        id: "Home",
+        children: "Home"
+      }, void 0, false, {
+        fileName: _jsxFileName,
+        lineNumber: 21,
+        columnNumber: 3
+      }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_6__["jsxDEV"])("a", {
+        href: "#",
+        id: "Atendentes",
+        children: "Atendentes"
+      }, void 0, false, {
+        fileName: _jsxFileName,
+        lineNumber: 22,
+        columnNumber: 3
+      }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_6__["jsxDEV"])("a", {
+        href: "#",
+        id: "Chat",
+        children: "Chat"
+      }, void 0, false, {
+        fileName: _jsxFileName,
+        lineNumber: 23,
+        columnNumber: 3
+      }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_6__["jsxDEV"])("a", {
+        href: "#",
+        id: "Suporte",
+        children: "Suporte"
+      }, void 0, false, {
+        fileName: _jsxFileName,
+        lineNumber: 24,
+        columnNumber: 3
+      }, undefined)]
+    }, void 0, true, {
+      fileName: _jsxFileName,
+      lineNumber: 20,
+      columnNumber: 1
+    }, undefined)]
+  }, void 0, true, {
+    fileName: _jsxFileName,
+    lineNumber: 18,
+    columnNumber: 5
+  }, undefined);
+};
+
+_c = Sidebar;
+/* harmony default export */ __webpack_exports__["default"] = (Sidebar);
+
+var _c;
+
+__webpack_require__.$Refresh$.register(_c, "Sidebar");
+
+const currentExports = __react_refresh_utils__.getModuleExports(module.i);
+__react_refresh_utils__.registerExportsForReactRefresh(currentExports, module.i);
+
+if (true) {
+  const isHotUpdate = !!module.hot.data;
+  const prevExports = isHotUpdate ? module.hot.data.prevExports : null;
+
+  if (__react_refresh_utils__.isReactRefreshBoundary(currentExports)) {
+    module.hot.dispose(
+      /**
+       * A callback to performs a full refresh if React has unrecoverable errors,
+       * and also caches the to-be-disposed module.
+       * @param {*} data A hot module data object from Webpack HMR.
+       * @returns {void}
+       */
+      function hotDisposeCallback(data) {
+        // We have to mutate the data object to get data registered and cached
+        data.prevExports = currentExports;
+      }
+    );
+    module.hot.accept(
+      /**
+       * An error handler to allow self-recovering behaviours.
+       * @param {Error} error An error occurred during evaluation of a module.
+       * @returns {void}
+       */
+      function hotErrorHandler(error) {
+        if (
+          typeof __react_refresh_error_overlay__ !== 'undefined' &&
+          __react_refresh_error_overlay__
+        ) {
+          __react_refresh_error_overlay__.handleRuntimeError(error);
+        }
+
+        if (typeof __react_refresh_test__ !== 'undefined' && __react_refresh_test__) {
+          if (window.onHotAcceptError) {
+            window.onHotAcceptError(error.message);
+          }
+        }
+
+        __webpack_require__.c[module.i].hot.accept(hotErrorHandler);
+      }
+    );
+
+    if (isHotUpdate) {
+      if (
+        __react_refresh_utils__.isReactRefreshBoundary(prevExports) &&
+        __react_refresh_utils__.shouldInvalidateReactRefreshBoundary(prevExports, currentExports)
+      ) {
+        module.hot.invalidate();
+      } else {
+        __react_refresh_utils__.enqueueUpdate(
+          /**
+           * A function to dismiss the error overlay after performing React refresh.
+           * @returns {void}
+           */
+          function updateCallback() {
+            if (
+              typeof __react_refresh_error_overlay__ !== 'undefined' &&
+              __react_refresh_error_overlay__
+            ) {
+              __react_refresh_error_overlay__.clearRuntimeErrors();
+            }
+          }
+        );
+      }
+    }
+  } else {
+    if (isHotUpdate && __react_refresh_utils__.isReactRefreshBoundary(prevExports)) {
+      module.hot.invalidate();
+    }
+  }
+}
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@pmmmwh/react-refresh-webpack-plugin/lib/runtime/RefreshUtils.js */ "./node_modules/@pmmmwh/react-refresh-webpack-plugin/lib/runtime/RefreshUtils.js"), __webpack_require__(/*! ./node_modules/react-dev-utils/refreshOverlayInterop.js */ "./node_modules/react-dev-utils/refreshOverlayInterop.js")))
+
+/***/ }),
+
+/***/ "./src/Component/sidebar/sidebar.css":
+/*!*******************************************!*\
+  !*** ./src/Component/sidebar/sidebar.css ***!
+  \*******************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+var api = __webpack_require__(/*! ../../../node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js */ "./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js");
+            var content = __webpack_require__(/*! !../../../node_modules/css-loader/dist/cjs.js??ref--5-oneOf-4-1!../../../node_modules/postcss-loader/src??postcss!./sidebar.css */ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/Component/sidebar/sidebar.css");
+
+            content = content.__esModule ? content.default : content;
+
+            if (typeof content === 'string') {
+              content = [[module.i, content, '']];
+            }
+
+var options = {};
+
+options.insert = "head";
+options.singleton = false;
+
+var update = api(content, options);
+
+
+if (true) {
+  if (!content.locals || module.hot.invalidate) {
+    var isEqualLocals = function isEqualLocals(a, b, isNamedExport) {
+  if (!a && b || a && !b) {
+    return false;
+  }
+
+  var p;
+
+  for (p in a) {
+    if (isNamedExport && p === 'default') {
+      // eslint-disable-next-line no-continue
+      continue;
+    }
+
+    if (a[p] !== b[p]) {
+      return false;
+    }
+  }
+
+  for (p in b) {
+    if (isNamedExport && p === 'default') {
+      // eslint-disable-next-line no-continue
+      continue;
+    }
+
+    if (!a[p]) {
+      return false;
+    }
+  }
+
+  return true;
+};
+    var oldLocals = content.locals;
+
+    module.hot.accept(
+      /*! !../../../node_modules/css-loader/dist/cjs.js??ref--5-oneOf-4-1!../../../node_modules/postcss-loader/src??postcss!./sidebar.css */ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/Component/sidebar/sidebar.css",
+      function () {
+        content = __webpack_require__(/*! !../../../node_modules/css-loader/dist/cjs.js??ref--5-oneOf-4-1!../../../node_modules/postcss-loader/src??postcss!./sidebar.css */ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/Component/sidebar/sidebar.css");
+
+              content = content.__esModule ? content.default : content;
+
+              if (typeof content === 'string') {
+                content = [[module.i, content, '']];
+              }
+
+              if (!isEqualLocals(oldLocals, content.locals)) {
+                module.hot.invalidate();
+
+                return;
+              }
+
+              oldLocals = content.locals;
+
+              update(content);
+      }
+    )
+  }
+
+  module.hot.dispose(function() {
+    update();
+  });
+}
+
+module.exports = content.locals || {};
+
+/***/ }),
+
+/***/ "./src/Page/Home/Home.css":
+/*!********************************!*\
+  !*** ./src/Page/Home/Home.css ***!
+  \********************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+var api = __webpack_require__(/*! ../../../node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js */ "./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js");
+            var content = __webpack_require__(/*! !../../../node_modules/css-loader/dist/cjs.js??ref--5-oneOf-4-1!../../../node_modules/postcss-loader/src??postcss!./Home.css */ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/Page/Home/Home.css");
+
+            content = content.__esModule ? content.default : content;
+
+            if (typeof content === 'string') {
+              content = [[module.i, content, '']];
+            }
+
+var options = {};
+
+options.insert = "head";
+options.singleton = false;
+
+var update = api(content, options);
+
+
+if (true) {
+  if (!content.locals || module.hot.invalidate) {
+    var isEqualLocals = function isEqualLocals(a, b, isNamedExport) {
+  if (!a && b || a && !b) {
+    return false;
+  }
+
+  var p;
+
+  for (p in a) {
+    if (isNamedExport && p === 'default') {
+      // eslint-disable-next-line no-continue
+      continue;
+    }
+
+    if (a[p] !== b[p]) {
+      return false;
+    }
+  }
+
+  for (p in b) {
+    if (isNamedExport && p === 'default') {
+      // eslint-disable-next-line no-continue
+      continue;
+    }
+
+    if (!a[p]) {
+      return false;
+    }
+  }
+
+  return true;
+};
+    var oldLocals = content.locals;
+
+    module.hot.accept(
+      /*! !../../../node_modules/css-loader/dist/cjs.js??ref--5-oneOf-4-1!../../../node_modules/postcss-loader/src??postcss!./Home.css */ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/Page/Home/Home.css",
+      function () {
+        content = __webpack_require__(/*! !../../../node_modules/css-loader/dist/cjs.js??ref--5-oneOf-4-1!../../../node_modules/postcss-loader/src??postcss!./Home.css */ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/Page/Home/Home.css");
+
+              content = content.__esModule ? content.default : content;
+
+              if (typeof content === 'string') {
+                content = [[module.i, content, '']];
+              }
+
+              if (!isEqualLocals(oldLocals, content.locals)) {
+                module.hot.invalidate();
+
+                return;
+              }
+
+              oldLocals = content.locals;
+
+              update(content);
+      }
+    )
+  }
+
+  module.hot.dispose(function() {
+    update();
+  });
+}
+
+module.exports = content.locals || {};
+
+/***/ }),
+
+/***/ "./src/Page/Home/index.js":
+/*!********************************!*\
+  !*** ./src/Page/Home/index.js ***!
+  \********************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* WEBPACK VAR INJECTION */(function(__react_refresh_utils__, __react_refresh_error_overlay__) {/* harmony import */ var react_router_dom__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react-router-dom */ "./node_modules/react-router-dom/esm/react-router-dom.js");
+/* harmony import */ var _Home_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Home.css */ "./src/Page/Home/Home.css");
+/* harmony import */ var _Home_css__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_Home_css__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _acount__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../acount */ "./src/Page/acount/index.js");
+/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! react/jsx-dev-runtime */ "./node_modules/react/jsx-dev-runtime.js");
+/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_3__);
+__webpack_require__.$Refresh$.runtime = __webpack_require__(/*! ./node_modules/react-refresh/runtime.js */ "./node_modules/react-refresh/runtime.js");
+__webpack_require__.$Refresh$.setup(module.i);
+
+var _jsxFileName = "C:\\Users\\Defensoria\\Desktop\\Emmy\\zoop-chat\\src\\Page\\Home\\index.js";
+
+
+
+
+
+
+const Home = () => {
+  return /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_3__["jsxDEV"])("div", {
+    id: "page-home",
+    children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_3__["jsxDEV"])("div", {
+      className: "content",
+      children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_3__["jsxDEV"])("div", {
+        className: "container",
+        children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_3__["jsxDEV"])("div", {
+          class: "login-page",
+          children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_3__["jsxDEV"])("div", {
+            class: "form",
+            children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_3__["jsxDEV"])("h1", {
+              children: "Login Zoopchat "
+            }, void 0, false, {
+              fileName: _jsxFileName,
+              lineNumber: 16,
+              columnNumber: 7
+            }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_3__["jsxDEV"])("form", {
+              class: "register-form",
+              children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_3__["jsxDEV"])("input", {
+                type: "text",
+                placeholder: "name"
+              }, void 0, false, {
+                fileName: _jsxFileName,
+                lineNumber: 19,
+                columnNumber: 7
+              }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_3__["jsxDEV"])("input", {
+                type: "password",
+                placeholder: "password"
+              }, void 0, false, {
+                fileName: _jsxFileName,
+                lineNumber: 20,
+                columnNumber: 7
+              }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_3__["jsxDEV"])("input", {
+                type: "text",
+                placeholder: "email address"
+              }, void 0, false, {
+                fileName: _jsxFileName,
+                lineNumber: 21,
+                columnNumber: 7
+              }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_3__["jsxDEV"])("button", {
+                children: "create"
+              }, void 0, false, {
+                fileName: _jsxFileName,
+                lineNumber: 22,
+                columnNumber: 7
+              }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_3__["jsxDEV"])("p", {
+                class: "message",
+                children: ["Already registered? ", /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_3__["jsxDEV"])("a", {
+                  href: "#",
+                  children: "Sign In"
+                }, void 0, false, {
+                  fileName: _jsxFileName,
+                  lineNumber: 23,
+                  columnNumber: 46
+                }, undefined)]
+              }, void 0, true, {
+                fileName: _jsxFileName,
+                lineNumber: 23,
+                columnNumber: 7
+              }, undefined)]
+            }, void 0, true, {
+              fileName: _jsxFileName,
+              lineNumber: 18,
+              columnNumber: 5
+            }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_3__["jsxDEV"])("form", {
+              class: "login-form",
+              children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_3__["jsxDEV"])("input", {
+                type: "text",
+                placeholder: "username"
+              }, void 0, false, {
+                fileName: _jsxFileName,
+                lineNumber: 26,
+                columnNumber: 7
+              }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_3__["jsxDEV"])("input", {
+                type: "password",
+                placeholder: "password"
+              }, void 0, false, {
+                fileName: _jsxFileName,
+                lineNumber: 27,
+                columnNumber: 7
+              }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_3__["jsxDEV"])("button", {
+                children: "login "
+              }, void 0, false, {
+                fileName: _jsxFileName,
+                lineNumber: 28,
+                columnNumber: 7
+              }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_3__["jsxDEV"])("p", {
+                class: "message",
+                children: ["Not registered? ", /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_3__["jsxDEV"])("a", {
+                  href: "#",
+                  children: "Create an account"
+                }, void 0, false, {
+                  fileName: _jsxFileName,
+                  lineNumber: 29,
+                  columnNumber: 42
+                }, undefined)]
+              }, void 0, true, {
+                fileName: _jsxFileName,
+                lineNumber: 29,
+                columnNumber: 7
+              }, undefined)]
+            }, void 0, true, {
+              fileName: _jsxFileName,
+              lineNumber: 25,
+              columnNumber: 5
+            }, undefined)]
+          }, void 0, true, {
+            fileName: _jsxFileName,
+            lineNumber: 15,
+            columnNumber: 3
+          }, undefined)
+        }, void 0, false, {
+          fileName: _jsxFileName,
+          lineNumber: 14,
+          columnNumber: 13
+        }, undefined)
+      }, void 0, false, {
+        fileName: _jsxFileName,
+        lineNumber: 13,
+        columnNumber: 13
+      }, undefined)
+    }, void 0, false, {
+      fileName: _jsxFileName,
+      lineNumber: 12,
+      columnNumber: 10
+    }, undefined)
+  }, void 0, false, {
+    fileName: _jsxFileName,
+    lineNumber: 11,
+    columnNumber: 9
+  }, undefined);
+};
+
+_c = Home;
+/* harmony default export */ __webpack_exports__["default"] = (Home);
+
+var _c;
+
+__webpack_require__.$Refresh$.register(_c, "Home");
+
+const currentExports = __react_refresh_utils__.getModuleExports(module.i);
+__react_refresh_utils__.registerExportsForReactRefresh(currentExports, module.i);
+
+if (true) {
+  const isHotUpdate = !!module.hot.data;
+  const prevExports = isHotUpdate ? module.hot.data.prevExports : null;
+
+  if (__react_refresh_utils__.isReactRefreshBoundary(currentExports)) {
+    module.hot.dispose(
+      /**
+       * A callback to performs a full refresh if React has unrecoverable errors,
+       * and also caches the to-be-disposed module.
+       * @param {*} data A hot module data object from Webpack HMR.
+       * @returns {void}
+       */
+      function hotDisposeCallback(data) {
+        // We have to mutate the data object to get data registered and cached
+        data.prevExports = currentExports;
+      }
+    );
+    module.hot.accept(
+      /**
+       * An error handler to allow self-recovering behaviours.
+       * @param {Error} error An error occurred during evaluation of a module.
+       * @returns {void}
+       */
+      function hotErrorHandler(error) {
+        if (
+          typeof __react_refresh_error_overlay__ !== 'undefined' &&
+          __react_refresh_error_overlay__
+        ) {
+          __react_refresh_error_overlay__.handleRuntimeError(error);
+        }
+
+        if (typeof __react_refresh_test__ !== 'undefined' && __react_refresh_test__) {
+          if (window.onHotAcceptError) {
+            window.onHotAcceptError(error.message);
+          }
+        }
+
+        __webpack_require__.c[module.i].hot.accept(hotErrorHandler);
+      }
+    );
+
+    if (isHotUpdate) {
+      if (
+        __react_refresh_utils__.isReactRefreshBoundary(prevExports) &&
+        __react_refresh_utils__.shouldInvalidateReactRefreshBoundary(prevExports, currentExports)
+      ) {
+        module.hot.invalidate();
+      } else {
+        __react_refresh_utils__.enqueueUpdate(
+          /**
+           * A function to dismiss the error overlay after performing React refresh.
+           * @returns {void}
+           */
+          function updateCallback() {
+            if (
+              typeof __react_refresh_error_overlay__ !== 'undefined' &&
+              __react_refresh_error_overlay__
+            ) {
+              __react_refresh_error_overlay__.clearRuntimeErrors();
+            }
+          }
+        );
+      }
+    }
+  } else {
+    if (isHotUpdate && __react_refresh_utils__.isReactRefreshBoundary(prevExports)) {
+      module.hot.invalidate();
+    }
+  }
+}
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@pmmmwh/react-refresh-webpack-plugin/lib/runtime/RefreshUtils.js */ "./node_modules/@pmmmwh/react-refresh-webpack-plugin/lib/runtime/RefreshUtils.js"), __webpack_require__(/*! ./node_modules/react-dev-utils/refreshOverlayInterop.js */ "./node_modules/react-dev-utils/refreshOverlayInterop.js")))
+
+/***/ }),
+
+/***/ "./src/Page/acount/acount.css":
+/*!************************************!*\
+  !*** ./src/Page/acount/acount.css ***!
+  \************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+var api = __webpack_require__(/*! ../../../node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js */ "./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js");
+            var content = __webpack_require__(/*! !../../../node_modules/css-loader/dist/cjs.js??ref--5-oneOf-4-1!../../../node_modules/postcss-loader/src??postcss!./acount.css */ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/Page/acount/acount.css");
+
+            content = content.__esModule ? content.default : content;
+
+            if (typeof content === 'string') {
+              content = [[module.i, content, '']];
+            }
+
+var options = {};
+
+options.insert = "head";
+options.singleton = false;
+
+var update = api(content, options);
+
+
+if (true) {
+  if (!content.locals || module.hot.invalidate) {
+    var isEqualLocals = function isEqualLocals(a, b, isNamedExport) {
+  if (!a && b || a && !b) {
+    return false;
+  }
+
+  var p;
+
+  for (p in a) {
+    if (isNamedExport && p === 'default') {
+      // eslint-disable-next-line no-continue
+      continue;
+    }
+
+    if (a[p] !== b[p]) {
+      return false;
+    }
+  }
+
+  for (p in b) {
+    if (isNamedExport && p === 'default') {
+      // eslint-disable-next-line no-continue
+      continue;
+    }
+
+    if (!a[p]) {
+      return false;
+    }
+  }
+
+  return true;
+};
+    var oldLocals = content.locals;
+
+    module.hot.accept(
+      /*! !../../../node_modules/css-loader/dist/cjs.js??ref--5-oneOf-4-1!../../../node_modules/postcss-loader/src??postcss!./acount.css */ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/Page/acount/acount.css",
+      function () {
+        content = __webpack_require__(/*! !../../../node_modules/css-loader/dist/cjs.js??ref--5-oneOf-4-1!../../../node_modules/postcss-loader/src??postcss!./acount.css */ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/Page/acount/acount.css");
+
+              content = content.__esModule ? content.default : content;
+
+              if (typeof content === 'string') {
+                content = [[module.i, content, '']];
+              }
+
+              if (!isEqualLocals(oldLocals, content.locals)) {
+                module.hot.invalidate();
+
+                return;
+              }
+
+              oldLocals = content.locals;
+
+              update(content);
+      }
+    )
+  }
+
+  module.hot.dispose(function() {
+    update();
+  });
+}
+
+module.exports = content.locals || {};
+
+/***/ }),
+
+/***/ "./src/Page/acount/index.js":
+/*!**********************************!*\
+  !*** ./src/Page/acount/index.js ***!
+  \**********************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* WEBPACK VAR INJECTION */(function(__react_refresh_utils__, __react_refresh_error_overlay__) {/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _Component_sidebar_Sidebar__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../Component/sidebar/Sidebar */ "./src/Component/sidebar/Sidebar.js");
+/* harmony import */ var _acount_css__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./acount.css */ "./src/Page/acount/acount.css");
+/* harmony import */ var _acount_css__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_acount_css__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var react_icons_fi__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! react-icons/fi */ "./node_modules/react-icons/fi/index.esm.js");
+/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! react/jsx-dev-runtime */ "./node_modules/react/jsx-dev-runtime.js");
+/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_4__);
+__webpack_require__.$Refresh$.runtime = __webpack_require__(/*! ./node_modules/react-refresh/runtime.js */ "./node_modules/react-refresh/runtime.js");
+__webpack_require__.$Refresh$.setup(module.i);
+
+var _jsxFileName = "C:\\Users\\Defensoria\\Desktop\\Emmy\\zoop-chat\\src\\Page\\acount\\index.js";
+
+
+
+
+
+
+const Acount = () => {
+  return /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_4__["jsxDEV"])("div", {
+    className: "acount",
+    children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_4__["jsxDEV"])("div", {
+      className: "search",
+      children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_4__["jsxDEV"])("form", {
+        action: "/",
+        method: "get",
+        children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_4__["jsxDEV"])(react_icons_fi__WEBPACK_IMPORTED_MODULE_3__["FiSearch"], {
+          type: "submit",
+          size: 23
+        }, void 0, false, {
+          fileName: _jsxFileName,
+          lineNumber: 10,
+          columnNumber: 2
+        }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_4__["jsxDEV"])("input", {
+          children: " "
+        }, void 0, false, {
+          fileName: _jsxFileName,
+          lineNumber: 11,
+          columnNumber: 1
+        }, undefined)]
+      }, void 0, true, {
+        fileName: _jsxFileName,
+        lineNumber: 9,
+        columnNumber: 2
+      }, undefined)
+    }, void 0, false, {
+      fileName: _jsxFileName,
+      lineNumber: 8,
+      columnNumber: 9
+    }, undefined)
+  }, void 0, false, {
+    fileName: _jsxFileName,
+    lineNumber: 7,
+    columnNumber: 5
+  }, undefined);
+};
+
+_c = Acount;
+/* harmony default export */ __webpack_exports__["default"] = (Acount);
+
+var _c;
+
+__webpack_require__.$Refresh$.register(_c, "Acount");
+
+const currentExports = __react_refresh_utils__.getModuleExports(module.i);
+__react_refresh_utils__.registerExportsForReactRefresh(currentExports, module.i);
+
+if (true) {
+  const isHotUpdate = !!module.hot.data;
+  const prevExports = isHotUpdate ? module.hot.data.prevExports : null;
+
+  if (__react_refresh_utils__.isReactRefreshBoundary(currentExports)) {
+    module.hot.dispose(
+      /**
+       * A callback to performs a full refresh if React has unrecoverable errors,
+       * and also caches the to-be-disposed module.
+       * @param {*} data A hot module data object from Webpack HMR.
+       * @returns {void}
+       */
+      function hotDisposeCallback(data) {
+        // We have to mutate the data object to get data registered and cached
+        data.prevExports = currentExports;
+      }
+    );
+    module.hot.accept(
+      /**
+       * An error handler to allow self-recovering behaviours.
+       * @param {Error} error An error occurred during evaluation of a module.
+       * @returns {void}
+       */
+      function hotErrorHandler(error) {
+        if (
+          typeof __react_refresh_error_overlay__ !== 'undefined' &&
+          __react_refresh_error_overlay__
+        ) {
+          __react_refresh_error_overlay__.handleRuntimeError(error);
+        }
+
+        if (typeof __react_refresh_test__ !== 'undefined' && __react_refresh_test__) {
+          if (window.onHotAcceptError) {
+            window.onHotAcceptError(error.message);
+          }
+        }
+
+        __webpack_require__.c[module.i].hot.accept(hotErrorHandler);
+      }
+    );
+
+    if (isHotUpdate) {
+      if (
+        __react_refresh_utils__.isReactRefreshBoundary(prevExports) &&
+        __react_refresh_utils__.shouldInvalidateReactRefreshBoundary(prevExports, currentExports)
+      ) {
+        module.hot.invalidate();
+      } else {
+        __react_refresh_utils__.enqueueUpdate(
+          /**
+           * A function to dismiss the error overlay after performing React refresh.
+           * @returns {void}
+           */
+          function updateCallback() {
+            if (
+              typeof __react_refresh_error_overlay__ !== 'undefined' &&
+              __react_refresh_error_overlay__
+            ) {
+              __react_refresh_error_overlay__.clearRuntimeErrors();
+            }
+          }
+        );
+      }
+    }
+  } else {
+    if (isHotUpdate && __react_refresh_utils__.isReactRefreshBoundary(prevExports)) {
+      module.hot.invalidate();
+    }
+  }
+}
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@pmmmwh/react-refresh-webpack-plugin/lib/runtime/RefreshUtils.js */ "./node_modules/@pmmmwh/react-refresh-webpack-plugin/lib/runtime/RefreshUtils.js"), __webpack_require__(/*! ./node_modules/react-dev-utils/refreshOverlayInterop.js */ "./node_modules/react-dev-utils/refreshOverlayInterop.js")))
+
+/***/ }),
+
+/***/ "./src/Routes.js":
+/*!***********************!*\
+  !*** ./src/Routes.js ***!
+  \***********************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* WEBPACK VAR INJECTION */(function(__react_refresh_utils__, __react_refresh_error_overlay__) {/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var react_router_dom__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-router-dom */ "./node_modules/react-router-dom/esm/react-router-dom.js");
+/* harmony import */ var _Page_Home__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./Page/Home */ "./src/Page/Home/index.js");
+/* harmony import */ var _Page_acount__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./Page/acount */ "./src/Page/acount/index.js");
+/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! react/jsx-dev-runtime */ "./node_modules/react/jsx-dev-runtime.js");
+/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_4__);
+__webpack_require__.$Refresh$.runtime = __webpack_require__(/*! ./node_modules/react-refresh/runtime.js */ "./node_modules/react-refresh/runtime.js");
+__webpack_require__.$Refresh$.setup(module.i);
+
+var _jsxFileName = "C:\\Users\\Defensoria\\Desktop\\Emmy\\zoop-chat\\src\\Routes.js";
+
+
+
+
+
+
+const Routes = () => {
+  return /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_4__["jsxDEV"])(react_router_dom__WEBPACK_IMPORTED_MODULE_1__["BrowserRouter"], {
+    children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_4__["jsxDEV"])(react_router_dom__WEBPACK_IMPORTED_MODULE_1__["Route"], {
+      component: _Page_Home__WEBPACK_IMPORTED_MODULE_2__["default"],
+      path: "/",
+      exact: true
+    }, void 0, false, {
+      fileName: _jsxFileName,
+      lineNumber: 11,
+      columnNumber: 9
+    }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_4__["jsxDEV"])(react_router_dom__WEBPACK_IMPORTED_MODULE_1__["Route"], {
+      component: _Page_acount__WEBPACK_IMPORTED_MODULE_3__["default"],
+      path: "/acount"
+    }, void 0, false, {
+      fileName: _jsxFileName,
+      lineNumber: 12,
+      columnNumber: 9
+    }, undefined)]
+  }, void 0, true, {
+    fileName: _jsxFileName,
+    lineNumber: 10,
+    columnNumber: 9
+  }, undefined);
+};
+
+_c = Routes;
+/* harmony default export */ __webpack_exports__["default"] = (Routes);
+
+var _c;
+
+__webpack_require__.$Refresh$.register(_c, "Routes");
+
+const currentExports = __react_refresh_utils__.getModuleExports(module.i);
+__react_refresh_utils__.registerExportsForReactRefresh(currentExports, module.i);
+
+if (true) {
+  const isHotUpdate = !!module.hot.data;
+  const prevExports = isHotUpdate ? module.hot.data.prevExports : null;
+
+  if (__react_refresh_utils__.isReactRefreshBoundary(currentExports)) {
+    module.hot.dispose(
+      /**
+       * A callback to performs a full refresh if React has unrecoverable errors,
+       * and also caches the to-be-disposed module.
+       * @param {*} data A hot module data object from Webpack HMR.
+       * @returns {void}
+       */
+      function hotDisposeCallback(data) {
+        // We have to mutate the data object to get data registered and cached
+        data.prevExports = currentExports;
+      }
+    );
+    module.hot.accept(
+      /**
+       * An error handler to allow self-recovering behaviours.
+       * @param {Error} error An error occurred during evaluation of a module.
+       * @returns {void}
+       */
+      function hotErrorHandler(error) {
+        if (
+          typeof __react_refresh_error_overlay__ !== 'undefined' &&
+          __react_refresh_error_overlay__
+        ) {
+          __react_refresh_error_overlay__.handleRuntimeError(error);
+        }
+
+        if (typeof __react_refresh_test__ !== 'undefined' && __react_refresh_test__) {
+          if (window.onHotAcceptError) {
+            window.onHotAcceptError(error.message);
+          }
+        }
+
+        __webpack_require__.c[module.i].hot.accept(hotErrorHandler);
+      }
+    );
+
+    if (isHotUpdate) {
+      if (
+        __react_refresh_utils__.isReactRefreshBoundary(prevExports) &&
+        __react_refresh_utils__.shouldInvalidateReactRefreshBoundary(prevExports, currentExports)
+      ) {
+        module.hot.invalidate();
+      } else {
+        __react_refresh_utils__.enqueueUpdate(
+          /**
+           * A function to dismiss the error overlay after performing React refresh.
+           * @returns {void}
+           */
+          function updateCallback() {
+            if (
+              typeof __react_refresh_error_overlay__ !== 'undefined' &&
+              __react_refresh_error_overlay__
+            ) {
+              __react_refresh_error_overlay__.clearRuntimeErrors();
+            }
+          }
+        );
+      }
+    }
+  } else {
+    if (isHotUpdate && __react_refresh_utils__.isReactRefreshBoundary(prevExports)) {
+      module.hot.invalidate();
+    }
+  }
+}
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@pmmmwh/react-refresh-webpack-plugin/lib/runtime/RefreshUtils.js */ "./node_modules/@pmmmwh/react-refresh-webpack-plugin/lib/runtime/RefreshUtils.js"), __webpack_require__(/*! ./node_modules/react-dev-utils/refreshOverlayInterop.js */ "./node_modules/react-dev-utils/refreshOverlayInterop.js")))
+
+/***/ }),
+
+/***/ "./src/index.css":
+/*!***********************!*\
+  !*** ./src/index.css ***!
+  \***********************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+var api = __webpack_require__(/*! ../node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js */ "./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js");
+            var content = __webpack_require__(/*! !../node_modules/css-loader/dist/cjs.js??ref--5-oneOf-4-1!../node_modules/postcss-loader/src??postcss!./index.css */ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/index.css");
+
+            content = content.__esModule ? content.default : content;
+
+            if (typeof content === 'string') {
+              content = [[module.i, content, '']];
+            }
+
+var options = {};
+
+options.insert = "head";
+options.singleton = false;
+
+var update = api(content, options);
+
+
+if (true) {
+  if (!content.locals || module.hot.invalidate) {
+    var isEqualLocals = function isEqualLocals(a, b, isNamedExport) {
+  if (!a && b || a && !b) {
+    return false;
+  }
+
+  var p;
+
+  for (p in a) {
+    if (isNamedExport && p === 'default') {
+      // eslint-disable-next-line no-continue
+      continue;
+    }
+
+    if (a[p] !== b[p]) {
+      return false;
+    }
+  }
+
+  for (p in b) {
+    if (isNamedExport && p === 'default') {
+      // eslint-disable-next-line no-continue
+      continue;
+    }
+
+    if (!a[p]) {
+      return false;
+    }
+  }
+
+  return true;
+};
+    var oldLocals = content.locals;
+
+    module.hot.accept(
+      /*! !../node_modules/css-loader/dist/cjs.js??ref--5-oneOf-4-1!../node_modules/postcss-loader/src??postcss!./index.css */ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/index.css",
+      function () {
+        content = __webpack_require__(/*! !../node_modules/css-loader/dist/cjs.js??ref--5-oneOf-4-1!../node_modules/postcss-loader/src??postcss!./index.css */ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/index.css");
+
+              content = content.__esModule ? content.default : content;
+
+              if (typeof content === 'string') {
+                content = [[module.i, content, '']];
+              }
+
+              if (!isEqualLocals(oldLocals, content.locals)) {
+                module.hot.invalidate();
+
+                return;
+              }
+
+              oldLocals = content.locals;
+
+              update(content);
+      }
+    )
+  }
+
+  module.hot.dispose(function() {
+    update();
+  });
+}
+
+module.exports = content.locals || {};
+
+/***/ }),
+
+/***/ "./src/index.js":
+/*!**********************!*\
+  !*** ./src/index.js ***!
+  \**********************/
+/*! no exports provided */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* WEBPACK VAR INJECTION */(function(__react_refresh_utils__, __react_refresh_error_overlay__) {/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var react_dom__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-dom */ "./node_modules/react-dom/index.js");
+/* harmony import */ var react_dom__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react_dom__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _index_css__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./index.css */ "./src/index.css");
+/* harmony import */ var _index_css__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_index_css__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var _App__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./App */ "./src/App.js");
+/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! react/jsx-dev-runtime */ "./node_modules/react/jsx-dev-runtime.js");
+/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_4__);
+__webpack_require__.$Refresh$.runtime = __webpack_require__(/*! ./node_modules/react-refresh/runtime.js */ "./node_modules/react-refresh/runtime.js");
+__webpack_require__.$Refresh$.setup(module.i);
+
+var _jsxFileName = "C:\\Users\\Defensoria\\Desktop\\Emmy\\zoop-chat\\src\\index.js";
+
+
+
+
+
+react_dom__WEBPACK_IMPORTED_MODULE_1___default.a.render( /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_4__["jsxDEV"])(react__WEBPACK_IMPORTED_MODULE_0___default.a.StrictMode, {
+  children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_4__["jsxDEV"])(_App__WEBPACK_IMPORTED_MODULE_3__["default"], {}, void 0, false, {
+    fileName: _jsxFileName,
+    lineNumber: 9,
+    columnNumber: 5
+  }, undefined)
+}, void 0, false, {
+  fileName: _jsxFileName,
+  lineNumber: 8,
+  columnNumber: 3
+}, undefined), document.getElementById('root'));
+
+const currentExports = __react_refresh_utils__.getModuleExports(module.i);
+__react_refresh_utils__.registerExportsForReactRefresh(currentExports, module.i);
+
+if (true) {
+  const isHotUpdate = !!module.hot.data;
+  const prevExports = isHotUpdate ? module.hot.data.prevExports : null;
+
+  if (__react_refresh_utils__.isReactRefreshBoundary(currentExports)) {
+    module.hot.dispose(
+      /**
+       * A callback to performs a full refresh if React has unrecoverable errors,
+       * and also caches the to-be-disposed module.
+       * @param {*} data A hot module data object from Webpack HMR.
+       * @returns {void}
+       */
+      function hotDisposeCallback(data) {
+        // We have to mutate the data object to get data registered and cached
+        data.prevExports = currentExports;
+      }
+    );
+    module.hot.accept(
+      /**
+       * An error handler to allow self-recovering behaviours.
+       * @param {Error} error An error occurred during evaluation of a module.
+       * @returns {void}
+       */
+      function hotErrorHandler(error) {
+        if (
+          typeof __react_refresh_error_overlay__ !== 'undefined' &&
+          __react_refresh_error_overlay__
+        ) {
+          __react_refresh_error_overlay__.handleRuntimeError(error);
+        }
+
+        if (typeof __react_refresh_test__ !== 'undefined' && __react_refresh_test__) {
+          if (window.onHotAcceptError) {
+            window.onHotAcceptError(error.message);
+          }
+        }
+
+        __webpack_require__.c[module.i].hot.accept(hotErrorHandler);
+      }
+    );
+
+    if (isHotUpdate) {
+      if (
+        __react_refresh_utils__.isReactRefreshBoundary(prevExports) &&
+        __react_refresh_utils__.shouldInvalidateReactRefreshBoundary(prevExports, currentExports)
+      ) {
+        module.hot.invalidate();
+      } else {
+        __react_refresh_utils__.enqueueUpdate(
+          /**
+           * A function to dismiss the error overlay after performing React refresh.
+           * @returns {void}
+           */
+          function updateCallback() {
+            if (
+              typeof __react_refresh_error_overlay__ !== 'undefined' &&
+              __react_refresh_error_overlay__
+            ) {
+              __react_refresh_error_overlay__.clearRuntimeErrors();
+            }
+          }
+        );
+      }
+    }
+  } else {
+    if (isHotUpdate && __react_refresh_utils__.isReactRefreshBoundary(prevExports)) {
+      module.hot.invalidate();
+    }
+  }
+}
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@pmmmwh/react-refresh-webpack-plugin/lib/runtime/RefreshUtils.js */ "./node_modules/@pmmmwh/react-refresh-webpack-plugin/lib/runtime/RefreshUtils.js"), __webpack_require__(/*! ./node_modules/react-dev-utils/refreshOverlayInterop.js */ "./node_modules/react-dev-utils/refreshOverlayInterop.js")))
+
+/***/ }),
+
+/***/ 1:
+/*!**********************************************************************************************************************************************************************************************!*\
+  !*** multi (webpack)/hot/dev-server.js ./node_modules/@pmmmwh/react-refresh-webpack-plugin/client/ReactRefreshEntry.js ./node_modules/react-dev-utils/webpackHotDevClient.js ./src/index.js ***!
+  \**********************************************************************************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+__webpack_require__(/*! C:\Users\Defensoria\Desktop\Emmy\zoop-chat\node_modules\webpack\hot\dev-server.js */"./node_modules/webpack/hot/dev-server.js");
+__webpack_require__(/*! C:\Users\Defensoria\Desktop\Emmy\zoop-chat\node_modules\@pmmmwh\react-refresh-webpack-plugin\client\ReactRefreshEntry.js */"./node_modules/@pmmmwh/react-refresh-webpack-plugin/client/ReactRefreshEntry.js");
+__webpack_require__(/*! C:\Users\Defensoria\Desktop\Emmy\zoop-chat\node_modules\react-dev-utils\webpackHotDevClient.js */"./node_modules/react-dev-utils/webpackHotDevClient.js");
+module.exports = __webpack_require__(/*! C:\Users\Defensoria\Desktop\Emmy\zoop-chat\src\index.js */"./src/index.js");
+
+
+/***/ })
+
+},[[1,"runtime-main","vendors~main"]]]);
+//# sourceMappingURL=main.chunk.js.map

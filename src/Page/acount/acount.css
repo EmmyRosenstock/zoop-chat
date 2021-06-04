@@ -1,0 +1,160 @@
+
+
+strong {
+  color:darkblue;
+  position:relative;
+  right:-10px;
+}
+.search  input {
+    display:flex;
+    position:relative;
+  background:white;
+  right:-500px;
+  border-radius:20px;
+
+}
+
+.search svg{
+  display:flex;
+    position:relative;
+  background:dodgerblue;
+  right:-680px;
+  border-radius:20%;
+  top:24px
+  
+  
+}
+.search svg:hover{
+  background:steelblue;
+  
+}
+.grid {
+  position: relative;
+  display:flex;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-gap: 12px;
+  top:100px;
+  height:20px;
+  right:-50px;
+}
+
+.item {
+  display:flex;
+  position: relative;
+  min-height: 200px;
+  width: 300px;
+  background-color:dodgerblue;
+  right: -100px;
+  
+}
+.grid .item svg{
+  display:flex;
+position: relative;
+  color:blue;
+  top:40px;
+  right: 30px;
+  size: 600;
+}
+.grid .item h1{
+  position: relative;
+  display:flex;
+  font-size: 15px ;
+  right: -80px;
+  top:140px;
+}
+.grid .item .icon .circle{
+  display:flex;
+position:relative ;
+top:130px;
+right:150px
+  
+}
+.grid .item .icon .circle h5{
+  position:relative;
+  top:40px;
+  right:-6px
+}
+.grid > div:nth-child(1) > div > svg{
+  display:flex;
+  position:relative ;
+  top:138px;
+  right:110px
+
+}
+.grid > div:nth-child(1) > div > h5{
+  display:flex;
+  position:relative ;
+  top:116px;
+  right:85px
+}
+#root > div > div.grid > div:nth-child(1) > div.check > svg{
+position: relative;
+display:flex;
+top: 170px;
+right:70px;
+}
+#root > div > div.grid > div:nth-child(1) > div.check > h5{
+  position: relative;
+display:flex;
+top: 147px;
+right:47px;
+}
+.item:hover{
+  background-color:lightseagreen;
+}
+.item2 {
+  display:flex;
+  position: relative;
+  min-height: 200px;
+  width: 300px;
+  background-color:dodgerblue;
+  right: -100px;
+  
+}
+.grid .item2 svg{
+  display:flex;
+position: relative;
+  color:darkturquoise;
+  top:40px;
+  right: 10px;
+  size: 600;
+}
+.grid .item2 h1{
+  position: relative;
+  display:flex;
+  font-size: 15px ;
+  right: -90px;
+  top:140px;
+}
+.item2:hover{
+ background:lightseagreen; 
+  
+}
+.item3 {
+  display:flex;
+  position: relative;
+  min-height: 200px;
+  width: 300px;
+  background-color:dodgerblue;
+  right: -100px;
+  
+}
+.grid .item3 svg{
+  display:flex;
+position: relative;
+  color:rgba(35, 99, 119, 0.63);
+  top:40px;
+  right: 10px;
+  size: 600;
+}
+.grid .item3 h1{
+  position: relative;
+  display:flex;
+  font-size: 15px ;
+  right: -90px;
+  top:140px;
+}
+.item3:hover{
+ background:lightseagreen; 
+  
+}
