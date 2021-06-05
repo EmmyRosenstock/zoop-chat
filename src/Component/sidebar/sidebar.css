@@ -24,9 +24,7 @@ top: 60px !important;
   right:-40px;
   top:8px;
 }
-.sidebar .dashboard:hover{
-  background-color:darkslateblue;
-}
+
 .sidebar .batepapo{
   position:relative;
   top: -40px;
