@@ -1,0 +1,112 @@
+#page-home{
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background-color: #f1f1f1;
+}
+#page-home .content{
+  width: 100%;
+  height: 100%;
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 30px;
+  display: flex;
+  flex-direction: column;
+}
+
+#page-home  header{
+  width: 100%;
+  height: 200px;
+  margin: auto;
+  padding: 0 auto;
+  position: relative;
+  display: flex;
+  top:-200px;
+  left: 100px;
+  background-color: #fff;
+  z-index: 2;
+}
+#page-home  header h1{
+  font-size: 20px;
+  color: #000;
+  display: flex;
+  position: relative;
+  top:150px;
+  z-index: -1;
+}
+grid {
+  position: relative;
+  display:flex;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-gap: 12px;
+  top:50px;
+  height:20px;
+  right:-50px;
+}
+
+.item {
+  display:flex;
+  position: relative;
+  min-height: 100px;
+  width: 200px;
+  background-color:#7200ff;
+  right: -100px;
+  top:-200px;
+  border-radius: 20px;
+  
+}
+.grid .item h1{
+  position: relative;
+  display:flex;
+  font-size: 20px ;
+  right: -20px;
+  top:44px;
+  color: #000;
+}
+.item:hover{
+  background-color:blueviolet ;
+}
+.item2 {
+  display:flex;
+  position: relative;
+  min-height: 100px;
+  width: 200px;
+  background-color:#933dfc;
+  right: -320px;
+  top:-300px;
+  border-radius: 20px;
+  
+}
+.grid .item2 h1{
+  position: relative;
+  display:flex;
+  font-size: 20px ;
+  right: -20px;
+  top:44px;
+  color: #000;
+}
+.item2:hover{
+  background-color:blueviolet ;
+}
+.item3 {
+  display:flex;
+  position: relative;
+  min-height: 100px;
+  width: 200px;
+  background-color:#dd3cff;
+  right: -540px;
+  top:-400px;
+  border-radius: 20px;
+  
+}
+.grid .item3 h1{
+  position: relative;
+  display:flex;
+  font-size: 20px ;
+  right: -20px;
+  top:44px;
+  color: #000;
+}
+.item3:hover{
+  background-color:blueviolet ;
+}
