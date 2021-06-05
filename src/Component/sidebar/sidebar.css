@@ -1,38 +1,111 @@
-strong{
-    font-size: 40px;
+      
+.sidebar {
+  height: 100%;
+  width: 160px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  padding-top: 40px;
+  background-color: #FFF;
   }
-  #mySidenav a {
-    position: absolute;
-    left: -80px;
-    transition: 0.3s;
-    padding: 15px;
-    width: 140px;
-    text-decoration: none;
-    font-size: 20px;
-    color: white;
-    border-radius: 0 5px 5px 0;
-  }
+  .sidebar .dashboard{
+  position: relative;
   
-  #mySidenav a:hover {
-    left: 0;
-  }
-  
-  #Home {
-    top: 60px;
-    background-color: #f44336;
-  }
-  
-  #Atendentes {
-    top:130px;
-    background-color: #f44338; 
-  }
-  
-  #Chat {
-    top: 200px;
-    background-color: #f44340;
-  }
-  
-  #Suporte {
-    top: 270px;
-    background-color: #f44342;
-  }
+}
+.sidebar .dashboard img{
+position: relative;
+width:30px !important;
+top: 60px !important;
+}
+.sidebar .dashboard h1{
+  font-size: 20px ;
+  font-weight:700;
+  position:relative;
+  right:-40px;
+  top:8px;
+}
+.sidebar .dashboard:hover{
+  background-color:darkslateblue;
+}
+.sidebar .batepapo{
+  position:relative;
+  top: -40px;
+}
+.sidebar .batepapo img{
+  position: relative;
+  width:30px !important;
+  top: 60px !important;
+}
+.sidebar .batepapo h1{
+  font-size: 20px ;
+  font-weight:700;
+  position:relative;
+  right:-40px;
+  top:8px;
+}
+.sidebar .atendentes{
+  position:relative;
+  top:-90px;
+}
+.sidebar .atendentes img{
+  position: relative;
+  width:30px !important;
+  top: 60px !important;
+}
+.sidebar .atendentes h1{
+  font-size: 20px ;
+  font-weight:700;
+  position:relative;
+  right:-40px;
+  top:8px;
+}
+.sidebar .leaders{
+  position:relative;
+  top:-140px;
+}
+.sidebar .leaders img{
+  position: relative;
+  width:30px !important;
+  top: 60px !important;
+}
+.sidebar .leaders h1{
+  font-size: 20px ;
+  font-weight:700;
+  position:relative;
+  right:-40px;
+  top:8px;
+}
+.sidebar .relatorios{
+  position:relative;
+  top:-193px;
+}
+
+.sidebar .relatorios img{
+  position: relative;
+  width:30px !important;
+  top: 60px !important;
+}
+.sidebar .relatorios h1{
+  font-size: 20px ;
+  font-weight:700;
+  position:relative;
+  right:-40px;
+  top:8px
+}
+.sidebar .chatbot{
+  position:relative;
+  top:-250px;
+}
+.sidebar .chatbot img{
+  position: relative;
+  width:30px !important;
+  top: 60px !important;
+}
+.sidebar .chatbot h1{
+  font-size: 20px ;
+  font-weight:700;
+  position:relative;
+  right:-40px;
+  top:8px
+
+}

@@ -1,32 +1,45 @@
 import React from 'react';
-import {
-  CDBSidebar,
-  CDBSidebarContent,
-  CDBSidebarFooter,
-  CDBSidebarHeader,
-  CDBSidebarMenu,
-  CDBSidebarMenuItem,
-} from 'cdbreact';
-import { NavLink } from 'react-router-dom';
-import { FiHome, FiLogOut, FiArrowLeftCircle, FiArrowRightCircle } from "react-icons/fi";
-import { FiUsers} from "react-icons/fi";
-import { BsFillPeopleFill,BsChatDotsFill  } from "react-icons/bs";
-import './sidebar.css';
-
+import Server from '../../assets/server.svg';
+import User from '../../assets/user.svg';
+import Users from '../../assets/users.svg';
+import Twitch from '../../assets/twitch.svg';
+import Message from '../../assets/message-square.svg';
+import Logout from '../../assets/log-out.svg';
+import Clipboard from '../../assets/clipboard.svg'
+import "./sidebar.css"
 const Sidebar = () => {
   return (
+    
     <body>
-<strong>ZoopChat</strong>
-<div id="mySidenav" class="sidenav">
-  <a href="/" id="Home">Home</a>
-  <a href="#" id="Atendentes">Atendentes</a>
-  <a href="#" id="Chat">Chat</a>
-  <a href="#" id="Suporte">Suporte</a>
+
+<div class="sidebar">
+<div className="dashboard">
+  <img src={Server} alt='server'/>
+  <h1>Dashboard</h1>
+  </div>
+<div className="batepapo">
+  <img src={Message} alt="bate-papo"/>
+  <h1>Bate-papo</h1></div>
+<div className="atendentes">
+  <img src={User}/>
+  <h1>Atendentes</h1></div>
+<div className="leaders">
+  <img src={Users}/>
+  <h1>Leaders</h1></div>
+<div className="relatorios">
+  <img src={Clipboard}/>
+  <h1>Relatorios</h1></div>
+<div className="chatbot">
+  <img src={Twitch}/>
+  <h1>Chatbot</h1></div>
 </div>
 
+<div class="body-text">
 
-   
+</div>
+
 </body>
+
   );
 };
 
