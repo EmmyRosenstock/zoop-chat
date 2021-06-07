@@ -10,28 +10,35 @@ import "./sidebar.css"
 const Sidebar = () => {
   return (
     
-    <body>
+  <body>
 
 <div class="sidebar">
 <div className="dashboard">
   <img src={Server} alt='server'/>
-  <h1>Dashboard</h1>
+  <a href="#">Dashboard</a>
   </div>
 <div className="batepapo">
   <img src={Message} alt="bate-papo"/>
-  <h1>Bate-papo</h1></div>
+  <a href="#">Bate-papo</a></div>
 <div className="atendentes">
   <img src={User}/>
-  <h1>Atendentes</h1></div>
+  <a href="#">Atendentes</a></div>
 <div className="leaders">
   <img src={Users}/>
-  <h1>Leaders</h1></div>
+  <a href="#">Leaders</a></div>
 <div className="relatorios">
   <img src={Clipboard}/>
-  <h1>Relatorios</h1></div>
+  <a href="#">Relatorios</a></div>
 <div className="chatbot">
   <img src={Twitch}/>
-  <h1>Chatbot</h1></div>
+  <a href="#">Chatbot</a></div>
+  <div className="logout">
+  <button className="btnlogout">
+  <img src={Logout}/>
+  Sair
+  </button>
+  </div>
+
 </div>
 
 <div class="body-text">
