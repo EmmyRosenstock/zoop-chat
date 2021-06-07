@@ -1,0 +1,208 @@
+      
+.sidebar {
+  height: 100%;
+  width: 180px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  padding-top: 40px;
+  background-color: #FFF;
+  }
+  .sidebar .dashboard {
+    background-color: #fff;
+    border: 1px solid #fff;
+    color: #000;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    width:181px;
+    height:60px;
+    display: flex;
+    position: relative;
+    font-weight:700;
+    top:70px;
+    right: -1px;
+    align-items: top;
+   
+  
+  }
+.sidebar .dashboard img{
+position: relative;
+width:20px !important;
+top: -10px !important;
+right:-18px;
+
+}
+.sidebar .dashboard a{
+  font-size: 12px ;
+  font-weight:700;
+  position:relative;
+  right:-30px;
+  top:20px;
+  color:#000;
+  text-decoration: none;
+}
+.sidebar .dashboard:hover{
+  background:slateblue;
+}
+.sidebar .batepapo{
+  position:relative;
+  top: 60px;
+  width:180px;
+  height:60px;
+  right:1px ;
+}
+.sidebar .batepapo img{
+  position: relative;
+  width:20px !important;
+  top: -10px !important;
+  right:-20px;
+}
+.sidebar .batepapo a{
+  font-size: 12px ;
+  font-weight:700;
+  position:relative;
+  right:-30px;
+  top:-10px;
+  text-decoration: none;
+  color:#000;
+}
+.sidebar .batepapo:hover{
+  background:slateblue;
+}
+.sidebar .atendentes{
+  position:relative;
+  top:50px;
+  width:180px;
+  height:60px;
+  right:1px
+}
+.sidebar .atendentes img{
+  position: relative;
+  width:20px !important;
+  right:-20px;
+ 
+}
+.sidebar .atendentes a{
+  font-size: 12px ;
+  font-weight:700;
+  position:relative;
+  right:-30px;
+  top: -7px;
+  text-decoration: none;
+  color:#000;
+}
+.sidebar .atendentes:hover{
+  background:slateblue;
+}
+
+
+.sidebar .leaders{
+  position:relative;
+  top:40px;
+  width:180px;
+  height:60px;
+  right:1px ;
+  
+  
+}
+.sidebar .leaders img{
+  position: relative;
+  width:20px !important;
+  right:-20px;
+}
+.sidebar .leaders a{
+  font-size: 12px !important ;
+  font-weight:700;
+  position:relative;
+  color:#000;
+  right:-30px;
+  top:-5px;
+  
+}
+.sidebar .leaders:hover{
+  background:slateblue;
+}
+.sidebar .relatorios{
+  position:relative;
+  width:180px;
+  height:60px;
+  top:40px;
+}
+
+.sidebar .relatorios img{
+  position: relative;
+  width:20px !important;
+  right:-20px;
+  top: -10px !important;
+  
+}
+.sidebar .relatorios a{
+  font-size: 12px !important ;
+  font-weight:700;
+  position:relative;
+  color:#000;
+  right:-30px;
+  top:-9px;
+  text-decoration: none;
+}
+.sidebar .relatorios:hover{
+  background:slateblue;
+}
+.sidebar .chatbot{
+  top: 30px;
+  position:relative;
+  width:180px;
+  height:60px;
+}
+.sidebar .chatbot img{
+  position: relative;
+  width:20px !important;
+  right:-20px;
+  top: -10px !important;
+}
+.sidebar .chatbot a{
+  top:-10px;
+  font-size: 12px !important ;
+  font-weight:700;
+  position:relative;
+  color:#000;
+  right:-30px;
+ 
+}
+.sidebar .chatbot:hover{
+  background:slateblue;
+}
+.sidebar .logout{
+  position:relative;
+  top:-193px;
+}
+.sidebar .logout {
+ 
+  top: 20px !important;
+  position:relative;
+  width:180px;
+  height:60px;
+
+}
+
+.sidebar .logout   img{
+  position: relative;
+  width:20px !important;
+  right:-20px;
+  top: -10px !important;
+}
+.sidebar .logout a{
+  top:-10px;
+  font-size: 12px !important ;
+  font-weight:700;
+  position:relative;
+  color:#000;
+  right:-30px;
+  text-decoration: none;
+ 
+}
+
+.sidebar .logout:hover{
+  background: slateblue;
+}
