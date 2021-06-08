@@ -33,10 +33,9 @@ const Sidebar = () => {
   <img src={Twitch}/>
   <a href="#">Chatbot</a></div>
   <div className="logout">
-  <button className="btnlogout">
-  <img src={Logout}/>
-  Sair
-  </button>
+    <img src={Logout}/>
+    <a href='#'>Sair</a>
+
   </div>
 
 </div>

@@ -1,7 +1,7 @@
       
 .sidebar {
   height: 100%;
-  width: 160px;
+  width: 180px;
   position: absolute;
   left: 0;
   top: 0;
@@ -15,31 +15,30 @@
     text-align: center;
     text-decoration: none;
     font-size: 16px;
-    
-    width:160px;
+    width:181px;
     height:60px;
     display: flex;
     position: relative;
     font-weight:700;
-    top:70px;
-    right: 2px;
+    top:40px;
+    right: 1px;
     align-items: top;
    
   
   }
 .sidebar .dashboard img{
 position: relative;
-width:30px !important;
+width:20px !important;
 top: -10px !important;
-right:-1px;
+right:-18px;
 
 }
 .sidebar .dashboard a{
-  font-size: 20px ;
+  font-size: 12px ;
   font-weight:700;
   position:relative;
-  right:-10px;
-  top:16px;
+  right:-30px;
+  top:20px;
   color:#000;
   text-decoration: none;
 }
@@ -48,20 +47,22 @@ right:-1px;
 }
 .sidebar .batepapo{
   position:relative;
-  top: 60px;
-  width:164px;
+  top: 20px;
+  width:180px;
   height:60px;
+  right:1px ;
 }
 .sidebar .batepapo img{
   position: relative;
-  width:30px !important;
+  width:20px !important;
   top: -10px !important;
+  right:-20px;
 }
 .sidebar .batepapo a{
-  font-size: 20px ;
+  font-size: 12px ;
   font-weight:700;
   position:relative;
-  right:-5px;
+  right:-30px;
   top:-10px;
   text-decoration: none;
   color:#000;
@@ -71,21 +72,23 @@ right:-1px;
 }
 .sidebar .atendentes{
   position:relative;
-  top:50px;
-  width:164px;
+  top:1px;
+  width:180px;
   height:60px;
+  right:1px
 }
 .sidebar .atendentes img{
   position: relative;
-  width:30px !important;
-  top: -10px !important;
+  width:20px !important;
+  right:-20px;
+ 
 }
 .sidebar .atendentes a{
-  font-size: 20px ;
+  font-size: 12px ;
   font-weight:700;
   position:relative;
-  right:-6px;
-  top:-4px;
+  right:-30px;
+  top: -7px;
   text-decoration: none;
   color:#000;
 }
@@ -96,115 +99,110 @@ right:-1px;
 
 .sidebar .leaders{
   position:relative;
-  top:40px;
-  width: 164px;
+  top: -19px;
+  width:180px;
   height:60px;
+  right:1px ;
   
   
 }
 .sidebar .leaders img{
   position: relative;
-  width:30px !important;
-  top: -10px !important;
+  width:20px !important;
+  right:-20px;
 }
 .sidebar .leaders a{
-  font-size: 20px ;
+  font-size: 12px !important ;
   font-weight:700;
   position:relative;
-  right:-10px;
-  text-decoration: none;
+  color:#000;
+  right:-30px;
   top:-5px;
-  color:#000
+  
 }
 .sidebar .leaders:hover{
   background:slateblue;
 }
 .sidebar .relatorios{
   position:relative;
-  top:40px;
-  width:160px;
+  width:180px;
   height:60px;
+  top:-38px;
+  right: 5px;
 }
 
 .sidebar .relatorios img{
   position: relative;
-  width:30px !important;
+  width:20px !important;
+  right:-20px;
   top: -10px !important;
-  right: 2px;
+  
 }
 .sidebar .relatorios a{
-  font-size: 20px ;
+  font-size: 12px !important ;
   font-weight:700;
   position:relative;
-  right:-8px;
-  text-decoration: none;
   color:#000;
-  top:-9px
+  right:-30px;
+  top:-9px;
+  text-decoration: none;
 }
 .sidebar .relatorios:hover{
   background:slateblue;
 }
 .sidebar .chatbot{
+  top: -57px;
   position:relative;
-  top: 30px;
-  width:160px;
+  width:180px;
   height:60px;
+  right: 6px;
 }
 .sidebar .chatbot img{
   position: relative;
-  width:30px !important;
+  width:20px !important;
+  right:-20px;
   top: -10px !important;
 }
 .sidebar .chatbot a{
-  font-size: 20px ;
+  top:-10px;
+  font-size: 12px !important ;
   font-weight:700;
   position:relative;
-  right:-10px;
-  top:-10px;
-  text-decoration:none;
   color:#000;
+  right:-30px;
+ 
 }
 .sidebar .chatbot:hover{
   background:slateblue;
 }
-.sidebar .logout{
-  position:relative;
-  top:-193px;
-}
-.sidebar .logout .btnlogout{
-  background-color: #fff;
-  border: 1px solid #FFF;
-  color: #000;
-  padding: 15px 32px;
-  text-align: center;
-  text-decoration: none;
-  font-size: 16px;
-  cursor: pointer;
-  width: 19px;
-  height:10px;
-  display: block;
-  
 
-}
 .sidebar .logout {
-  position: relative;
-  top:-10px;
-}
-.sidebar .logout .btnlogout  img{
-  display: flex;
-  position: relative;
-  width: 20px !important;
-  top: -30px !important;
-  right:-1px;
-}
-.sidebar .logout .btnlogout{
-  display: flex;
+ 
+  top: -75px !important;
   position:relative;
-  top:200px;
-  width:100px;
-  height:50px;
+  width:180px;
+  height:60px;
+  right: 6px;
+
 }
 
-.sidebar .logout .btnlogout:hover{
-  background: #f1f1f1;
+.sidebar .logout   img{
+  position: relative;
+  width:20px !important;
+  right:-20px;
+  top: -10px !important;
+}
+.sidebar .logout a{
+  top:-10px;
+  font-size: 12px !important ;
+  font-weight:700;
+  position:relative;
+  color:#000;
+  right:-30px;
+  text-decoration: none;
+ 
+}
+
+.sidebar .logout:hover{
+  background: slateblue;
 }
