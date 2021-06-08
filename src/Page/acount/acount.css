@@ -63,11 +63,11 @@ grid {
 .item {
   display:flex;
   position: relative;
-  min-height: 300px;
-  width: 200px;
+  min-height: 200px;
+  width: 300px;
   background-color:#7200ff;
-  right: -200px;
-  top:100px;
+  right: -100px;
+  top:30px;
   border-radius: 20px;
   
 }
@@ -75,7 +75,7 @@ grid {
   position: relative;
   display:flex;
   font-size: 20px ;
-  right: -20px;
+  right: -60px;
   top:44px;
   color: #000;
   font-weight: bold;
@@ -87,11 +87,11 @@ grid {
 .item2 {
   display:flex;
   position: relative;
-  min-height: 300px;
-  width: 200px;
+  min-height: 200px;
+  width: 300px;
   background-color:#933dfc;
-  right: -500px;
-  top:-200px;
+  right: -450px;
+  top:-170px;
   border-radius: 20px;
   
 }
@@ -99,7 +99,7 @@ grid {
   position: relative;
   display:flex;
   font-size: 20px ;
-  right: -20px;
+  right: -60px;
   top:44px;
   color: #000;
   font-weight: bold
@@ -110,11 +110,11 @@ grid {
 .item3 {
   display:flex;
   position: relative;
-  min-height: 300px;
-  width: 200px;
+  min-height: 200px;
+  width: 300px;
   background-color:#dd3cff;
   right: -800px;
-  top:-500px;
+  top:-370px;
   border-radius: 20px;
   
 }
@@ -122,7 +122,7 @@ grid {
   position: relative;
   display:flex;
   font-size: 20px ;
-  right: -20px;
+  right: -60px;
   top:44px;
   color: #000;
   font-weight: bold;

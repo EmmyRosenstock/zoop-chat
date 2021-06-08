@@ -1,5 +1,6 @@
       
 .sidebar {
+  display:flexbox;
   height: 100%;
   width: 180px;
   position: absolute;
@@ -9,6 +10,7 @@
   background-color: #FFF;
   }
   .sidebar .dashboard {
+    display: flex;
     background-color: #fff;
     border: 1px solid #fff;
     color: #000;
@@ -47,6 +49,7 @@ right:-18px;
 }
 .sidebar .batepapo{
   position:relative;
+  display:block;
   top: 20px;
   width:180px;
   height:60px;
@@ -118,6 +121,7 @@ right:-18px;
   color:#000;
   right:-30px;
   top:-5px;
+  text-decoration: none;
   
 }
 .sidebar .leaders:hover{
@@ -170,6 +174,7 @@ right:-18px;
   position:relative;
   color:#000;
   right:-30px;
+  text-decoration: none;
  
 }
 .sidebar .chatbot:hover{

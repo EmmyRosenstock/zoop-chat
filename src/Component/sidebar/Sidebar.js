@@ -15,14 +15,14 @@ const Sidebar = () => {
 <div class="sidebar">
 <div className="dashboard">
   <img src={Server} alt='server'/>
-  <a href="#">Dashboard</a>
+  <a href="/acount">Dashboard</a>
   </div>
 <div className="batepapo">
   <img src={Message} alt="bate-papo"/>
-  <a href="#">Bate-papo</a></div>
+  <a href="/bate-papo">Bate-papo</a></div>
 <div className="atendentes">
   <img src={User}/>
-  <a href="#">Atendentes</a></div>
+  <a href="/atendentes">Atendentes</a></div>
 <div className="leaders">
   <img src={Users}/>
   <a href="#">Leaders</a></div>
